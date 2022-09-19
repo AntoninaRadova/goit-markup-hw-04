@@ -9,7 +9,8 @@
     --text: #757575;
     --footer-color: #2F303A;
     --webstudio-border: #ECECEC;
-    --color-customers: #F5F5F5
+    --color-customers: #F5F5F5;
+    --color-social: #AFB1B8;
 }
 
 body {
@@ -217,8 +218,7 @@ ul {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    background-image: url(../images/img.jpg);
-    /* linear-gradient(to right, red, blue), */     
+    background-image: linear-gradient(to right, #2F303A66, #C4C4C4), url(../images/img.jpg);    
 }
 
 .activity {
@@ -276,7 +276,7 @@ ul {
 }
 
 .icon-social {
-    fill: var(--link-color);
+    fill: var(--color-social);
 }
 
 .icon-customers {
@@ -536,7 +536,6 @@ ul {
 .footer-icon {
     display: flex;
     align-items: baseline;
-    margin-right: 70px;
 }
 
 .footer-title {
