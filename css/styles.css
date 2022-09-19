@@ -290,10 +290,6 @@ ul {
     background-image: url(../svg/logo-2.svg);
 }
 
-/* .icon::before {
-    background-image: url(../svg/activity-1.svg);
-} */
-
 .activity-item:nth-child(1)::before {
     background-image: url(../svg/activity-1.svg);
 }
@@ -540,6 +536,7 @@ ul {
 .footer-icon {
     display: flex;
     align-items: baseline;
+    margin-right: 70px;
 }
 
 .footer-title {
