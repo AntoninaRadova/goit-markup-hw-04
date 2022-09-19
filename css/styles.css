@@ -259,10 +259,15 @@ ul {
     background-color: rgba(255, 255, 255, 0.1);
 }
 
-.icon-social-list:hover,
-.icon-social-list:focus {
+.icon-social:hover,
+.icon-social:focus {
     fill: var(--link-color);
 }
+
+/* .icon-social-list:hover,
+.icon-social-list:focus {
+    fill: var(--link-color);
+} */
 
 .icon-social {
     display: flex;
