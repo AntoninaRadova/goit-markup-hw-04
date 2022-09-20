@@ -151,6 +151,10 @@ ul {
     text-align: center;
 }
 
+.header--icon {
+    margin-left: 10px;
+}
+
 /* section */
 
 .section {
