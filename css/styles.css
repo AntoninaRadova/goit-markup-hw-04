@@ -157,7 +157,7 @@ ul {
 
 .header--icon:hover,
 .header--icon:focus {
-    fill: var(--link-color);
+    /* fill: var(--color-text-secondary); */
     color: var(--link-color);
 }
 
@@ -271,13 +271,27 @@ ul {
     background-color: rgba(255, 255, 255, 0.1);
 }
 
-.icon-social:hover,
+/* .icon-social:hover,
 .icon-social:focus,
 .icon-customers:hover,
 .icon-customers:focus {
-    fill: var(--link-color);
-    color: var(--color-text-secondary);
+    fill: var(--color-text-secondary);
+    background-color: var(--link-color);
+    border-radius: 50%;
+} */
+
+.icon-social-list:hover,
+.icon-social-list:focus {
+    fill: var(--color-text-secondary);
+    background-color: var(--link-color);
+    border-radius: 50%;
 }
+
+.icon-customers:hover,
+.icon-customers:focus {
+    fill: var(--color-text-secondary);
+    background-color: var(--link-color);
+    }
 
 .icon-social {
     display: flex;
