@@ -381,6 +381,7 @@ ul {
 }
 
 .icon-list {
+    fill: var(--color-text-secondary);
 }
 
 /* portfolio-button */
