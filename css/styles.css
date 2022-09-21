@@ -295,18 +295,16 @@ ul {
     display: flex;
     align-items: center;
     justify-content: center;
-    fill: var(--color-social);
+    /* fill: var(--color-social); */
 }
 
 .icon-customers {
     width: 170px;
     height: 92px;
-    /* background: var(--color-customers); */
     flex-basis: calc((100% - 5 * 30px) / 6);
     border: 1px solid var(--color-social);
     border-radius: 4px;
-    fill: var(--color-text-secondary);
-    /* background-color: var(--link-color); */
+    /* fill: var(--color-text-secondary); */
 }
 
 .icon-customers-a {
@@ -564,7 +562,7 @@ ul {
     background-color: var(--link-color);
 }
 
-.footer.icon-container.icon-social-list {
+.footer.icon-social-list {
     fill: var(--color-text-secondary);
 }
 
