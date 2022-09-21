@@ -282,7 +282,7 @@ ul {
 
 .icon-social-list:hover,
 .icon-social-list:focus {
-    fill: var(--color-text-secondary);
+    color: var(--color-text-secondary);
     background-color: var(--link-color);
     border-radius: 50%;
 }
@@ -293,15 +293,12 @@ ul {
     background-color: var(--link-color);
     }
 
-.icon-social {
+.icon-customers.icon-social {
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.icon-social {
     fill: var(--color-social);
-    /* color: var(--link-color); */
+        /* color: var(--link-color); */
 }
 
 .icon-customers {
