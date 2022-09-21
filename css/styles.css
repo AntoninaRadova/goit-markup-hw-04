@@ -158,7 +158,7 @@ ul {
 
 .header--icon:hover,
 .header--icon:focus {
-    color: var(--link-color);
+    fill: var(--link-color);
 }
 
 /* section */
@@ -274,7 +274,7 @@ ul {
 
 .icon-social-list:hover,
 .icon-social-list:focus {
-    color: var(--color-text-secondary);
+    fill: var(--color-text-secondary);
     background-color: var(--link-color);
     border-radius: 50%;
 }
@@ -290,7 +290,6 @@ ul {
     align-items: center;
     justify-content: center;
     fill: var(--color-social);
-        /* color: var(--link-color); */
 }
 
 .icon-customers {
