@@ -565,7 +565,7 @@ ul {
 }
 
 .footer.icon-container.icon-social-list {
-    color: var(--color-text-secondary);
+    fill: var(--color-text-secondary);
 }
 
 .footer-div {
