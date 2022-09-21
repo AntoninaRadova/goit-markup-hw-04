@@ -374,6 +374,7 @@ ul {
     display: flex;
     justify-content: center;
     gap: 10px;
+    fill: var(--color-text-secondary);
 }
 
 .icon-list {
@@ -551,8 +552,7 @@ ul {
 
 .icon-container.icon-list:hover,
 .icon-container.icon-list:focus {
-    fill: var(--color-text-secondary);
-    color: var(--link-color);
+    background-color: var(--link-color);
 }
 
 .footer-div {
