@@ -281,9 +281,15 @@ ul {
 
 .icon-customers:hover,
 .icon-customers:focus {
+    /* fill: var(--color-text-secondary); */
+    background-color: var(--link-color);
+}
+
+.icon-customers.icon-social:hover,
+.icon-customers.icon-social:focus {
     fill: var(--color-text-secondary);
     background-color: var(--link-color);
-    }
+}
 
 .icon-customers.icon-social {
     display: flex;
@@ -556,6 +562,10 @@ ul {
 .icon-container.icon-list:hover,
 .icon-container.icon-list:focus {
     background-color: var(--link-color);
+}
+
+.icon-container.icon-social {
+    fill: var(--color-text-secondary);
 }
 
 .footer-div {
