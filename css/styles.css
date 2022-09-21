@@ -153,11 +153,11 @@ ul {
 
 .header--icon {
     margin-right: 10px;
+    fill: var(--color-text-secondary);
 }
 
 .header--icon:hover,
 .header--icon:focus {
-    /* fill: var(--color-text-secondary); */
     color: var(--link-color);
 }
 
@@ -264,7 +264,7 @@ ul {
     display: flex;
     align-items: center;
     justify-content: center;
-    fill: var(--color-text-secondary);
+    fill: var(--color-social);
 
     width: 44px;
     height: 44px;
@@ -281,7 +281,7 @@ ul {
 
 .icon-customers:hover,
 .icon-customers:focus {
-    color: var(--color-text-secondary);
+    fill: var(--color-text-secondary);
     background-color: var(--link-color);
     }
 
