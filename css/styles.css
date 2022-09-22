@@ -161,7 +161,7 @@ header-icon.:hover,
 
 .header--icon {
     margin-right: 10px;
-    fill: var(--color-text-secondary);
+/*     fill: var(--color-text-secondary); */
     /* fill: var(--text); */
 }
 
