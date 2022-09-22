@@ -150,6 +150,11 @@ ul {
     text-align: center;
 }
 
+.header-icon:hover,
+.header-icon:focus {
+    fill: var(--link-color);
+}
+
 .header--icon {
     margin-right: 10px;
     fill: var(--color-text-secondary);
