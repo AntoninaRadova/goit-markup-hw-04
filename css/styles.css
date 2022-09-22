@@ -322,6 +322,11 @@ ul {
     justify-content: center;
 }
 
+.icon-customers-a:hover,
+.icon-customers-a:focus {
+    fill: var(--link-color);
+}
+
 .activity-title {
     margin-bottom: 10px;
     font-weight: 700;
