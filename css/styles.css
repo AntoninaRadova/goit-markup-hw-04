@@ -152,8 +152,8 @@ ul {
 
 .header--icon {
     margin-right: 10px;
-    /* fill: var(--color-text-secondary); */
-    fill: var(--text);
+    fill: var(--color-text-secondary);
+    /* fill: var(--text); */
 }
 
 .header--icon:hover,
@@ -264,7 +264,7 @@ ul {
     display: flex;
     align-items: center;
     justify-content: center;
-    /* fill: var(--color-social); */
+    fill: var(--color-social);
 
     width: 44px;
     height: 44px;
@@ -385,9 +385,9 @@ ul {
     /* fill: var(--color-text-secondary); */
 }
 
-.icon-list {
+/* .icon-list {
     fill: var(--color-text-secondary);
-}
+} */
 
 /* portfolio-button */
 
@@ -564,7 +564,7 @@ ul {
     background-color: var(--link-color);
 }
 
-.footer.icon-social-list {
+.footer-icon-social-list {
     fill: var(--color-text-secondary);
 }
 
