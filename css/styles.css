@@ -273,7 +273,7 @@ header-icon.:hover,
     display: flex;
     align-items: center;
     justify-content: center;
-    /* fill: var(--color-social); */
+    fill: var(--color-social);
 
     width: 44px;
     height: 44px;
@@ -304,7 +304,6 @@ header-icon.:hover,
     display: flex;
     align-items: center;
     justify-content: center;
-    /* fill: var(--color-social); */
 }
 
 .icon-customers {
@@ -321,6 +320,7 @@ header-icon.:hover,
     display: flex;
     align-items: center;
     justify-content: center;
+    fill: var(--color-social);
 }
 
 .icon-customers-a:hover,
