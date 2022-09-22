@@ -137,7 +137,6 @@ ul {
 
 .webstudio {
     display: inline-block;
-
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
@@ -153,7 +152,8 @@ ul {
 
 .header--icon {
     margin-right: 10px;
-    fill: var(--color-text-secondary);
+    /* fill: var(--color-text-secondary); */
+    fill: var(--text);
 }
 
 .header--icon:hover,
@@ -264,7 +264,7 @@ ul {
     display: flex;
     align-items: center;
     justify-content: center;
-    fill: var(--color-social);
+    /* fill: var(--color-social); */
 
     width: 44px;
     height: 44px;
@@ -282,13 +282,15 @@ ul {
 .icon-customers:hover,
 .icon-customers:focus {
     /* fill: var(--color-text-secondary); */
-    background-color: var(--link-color);
+    fill: var(--link-color);
+    border: 1px solid var(--link-color);
+    border-radius: 4px;
 }
 
 .icon-customers.icon-social:hover,
 .icon-customers.icon-social:focus {
-    fill: var(--color-text-secondary);
-    background-color: var(--link-color);
+    /* fill: var(--color-text-secondary); */
+    fill: var(--link-color);
 }
 
 .icon-customers.icon-social {
