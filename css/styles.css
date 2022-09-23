@@ -73,8 +73,7 @@ ul {
     align-items: center;
 }
 
-.link,
-.header-link {
+.link {
     text-decoration: none;
     color: var(--color-text-primary);
     font-weight: 500;
@@ -119,6 +118,7 @@ ul {
 .auth-nav .list {
     padding-top: 32px;
     padding-bottom: 32px;
+
 }
 
 .list .link {
@@ -155,15 +155,20 @@ ul {
 }
 
 .header-icon:hover,
-.header-icon:focus,
-.header-icon:current {
+.header-icon:focus {
     fill: var(--link-color);
-    color: var(--link-color);
 }
 
 .header--icon {
     margin-right: 10px;
+/*     fill: var(--color-text-secondary); */
+    /* fill: var(--text); */
 }
+
+/* .header--icon:hover,
+.header--icon:focus {
+    fill: var(--link-color);
+} */
 
 /* section */
 
@@ -242,6 +247,15 @@ ul {
 .activity-item {
     flex-basis: calc((100% - 3 * 30px) / 4);
 }
+
+/* .activity-item::before {
+    display: block;
+    content: "";
+    height: 120px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+} */
 
 .icon-activity {
     display: flex;
