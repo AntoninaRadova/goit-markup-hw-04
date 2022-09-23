@@ -154,7 +154,7 @@ ul {
     fill: var(--text);
 }
 
-header-icon.:hover,
+.header-icon:hover,
 .header-icon:focus {
     fill: var(--link-color);
 }
